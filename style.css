@@ -1,0 +1,151 @@
+body
+{
+    padding: left 50px;
+}
+
+a
+{
+    color: cornflowerblue
+}
+h1
+{
+    font-size: 64px;
+    color: #1F3F68;
+}
+.ph2
+{
+    font-size: 44px;
+    color: #1F3F68;
+}
+p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68.
+}
+a 
+{
+    text-decoration: none;
+}
+
+.menu li
+{
+    list-style: none;
+    height: 50px;
+    width: 100px;
+}
+
+.pha2 a:hover
+{
+    color: blue;
+    font-size: 20px
+}
+
+.pha1 a:hover
+{
+    color: blue;
+    font-size: 20px
+}
+
+.reg a:hover
+{
+    color: blue;
+    font-size: 20px
+}
+
+.catalog a:hover
+{
+    color: blue;
+    font-size: 20px
+}
+
+.menu a:hover
+{
+    color: blue;
+    font-size: 20px
+}
+
+.menu ul
+{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+}
+
+.gr 
+{
+
+    list-style: none;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.catalog
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 10px;
+}
+
+
+.reg
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+}
+
+.pha1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+}
+.pha2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+}
+
+.tov
+{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 100px;
+}
+.naz
+{
+    text-align: center;
+    width: 600px;
+}
+
+/* Прижате подвала /*
+
+/*Прижатие футера*/
+
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
